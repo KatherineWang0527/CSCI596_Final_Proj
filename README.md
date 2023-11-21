@@ -71,13 +71,12 @@ Finally, sets the color of the fragment (gl_FragColor) by multiplying the base c
 Effect:
 before:
 
-<img width="338" alt="image" src="https://github.com/KatherineWang0527/CSCI596_Final_Proj/assets/62502208/d3038e54-8777-41f9-b198-250ba3b21208">
+![image](https://github.com/KatherineWang0527/CSCI596_Final_Proj/assets/62502208/4e2eb437-00aa-4cce-9019-75c3ac643f03)
 
- 
 
 After:
 
-<img width="341" alt="image" src="https://github.com/KatherineWang0527/CSCI596_Final_Proj/assets/62502208/24d3205a-7083-42dd-a5bb-e0e10cf47661">
+![image](https://github.com/KatherineWang0527/CSCI596_Final_Proj/assets/62502208/86542a87-1a35-4495-80d2-00f12b813534)
 
  
 
