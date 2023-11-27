@@ -84,11 +84,11 @@ After:
 
 2. 3D models shadering application
 
-   Key points:
-        Beeing more bright when closer to a light source
-        Having highlights when looking in the reflection of a light (specular lighting)
-        Beeing darker when light is not directly towards the model (diffuse lighting)
-        Cheating a lot (ambient lighting)
+Key points:
+        (1) Beeing more bright when closer to a light source
+        (2) Having highlights when looking in the reflection of a light (specular lighting)
+        (3) Beeing darker when light is not directly towards the model (diffuse lighting)
+        (4) Cheating a lot (ambient lighting)
 
 Steps:
 
@@ -123,6 +123,9 @@ Create a rendering loop to continuously render the scene, updating the camera po
 Optimization and Performance:
 
 Optimize shaders and rendering techniques for smooth performance, especially with complex models and shader effects.
+
+Effect:
+<img width="773" alt="Screen Shot 2023-11-21 at 21 59 39" src="https://github.com/KatherineWang0527/CSCI596_Final_Proj/assets/89505559/4c5e64ea-e1c0-422f-bf2f-890f34ad0e24">
 
 
 ### Challenges:
