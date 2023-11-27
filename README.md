@@ -8,6 +8,7 @@ USC CSCI596 final project in 2023fall
 
 Researching shaders in the context of OpenGL involves exploring and implementing techniques to achieve visual effects that enhance the realism, aesthetics, or specific characteristics of rendered objects or scenes.
 
+We are conducting research on shader-based processing of objects using OpenGL. Our project focuses on shader processing for both 2D and 3D objects, employing a teapot as the subject for 2D and a monkey model for 3D
 
 1. Teapot shading 
 Steps:
@@ -82,6 +83,12 @@ After:
 
 
 2. 3D models shadering application
+
+   Key points:
+        Beeing more bright when closer to a light source
+        Having highlights when looking in the reflection of a light (specular lighting)
+        Beeing darker when light is not directly towards the model (diffuse lighting)
+        Cheating a lot (ambient lighting)
 
 Steps:
 
