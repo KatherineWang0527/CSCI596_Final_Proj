@@ -104,7 +104,7 @@ from tu_06_multobjs import meshFromObj
 if __name__ == "__main__":
 
     win = MeshViewWindow().init_default()    
-    win.add_mesh(meshFromObj(meshName="resources/tu04/suzanne.obj",textureName="resources/tu04/uvmap.dds",location=[0.0,3.0,0.0]))    
-    win.add_mesh(basicShading(meshName="resources/tu04/suzanne.obj",textureName="resources/tu04/uvmap.dds"))
+    win.add_mesh(meshFromObj(meshName="suzanne.obj",textureName="uvmap.dds",location=[0.0,3.0,0.0]))    
+    win.add_mesh(basicShading(meshName="suzanne.obj",textureName="uvmap.dds"))
 
     win.run()
