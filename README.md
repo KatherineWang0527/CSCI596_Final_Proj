@@ -124,7 +124,7 @@ Optimization and Performance:
 
 Optimize shaders and rendering techniques for smooth performance, especially with complex models and shader effects.
 
-Effect:
+### Effect:
 <img width="773" alt="Screen Shot 2023-11-21 at 21 59 39" src="https://github.com/KatherineWang0527/CSCI596_Final_Proj/assets/89505559/4c5e64ea-e1c0-422f-bf2f-890f34ad0e24">
 
 
