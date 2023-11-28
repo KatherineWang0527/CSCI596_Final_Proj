@@ -90,7 +90,32 @@ Key points:
         (3) Beeing darker when light is not directly towards the model (diffuse lighting)
         (4) Cheating a lot (ambient lighting)
 
-Steps:
+### More Detail ablut the key points
+### (1) The Diffuse part
+The importance of the surface normal
+When light hits an object, an important fraction of it is reflected in all directions. This is the “diffuse component”. When a certain flux of light arrives at the surface, this surface is illuminated differently according to the angle at which the light arrives.
+
+If the light is perpendicular to the surface, it is concentrated on a small surface. If it arrives at a gazing angle, the same quantity of light spreads on a greater surface :
+
+<img width="581" alt="Screen Shot 2023-11-29 at 07 29 20" src="https://github.com/KatherineWang0527/CSCI596_Final_Proj/assets/89505559/c2324747-38b5-4650-868c-916747f0b98a">
+
+
+### (2) Material Color
+The output colour also depends on the colour of the material. In this image, the white light is made out of green, red and blue light. When colliding with the red material, green and blue light is absorbed, and only the red remains.
+<img width="474" alt="Screen Shot 2023-11-29 at 07 29 57" src="https://github.com/KatherineWang0527/CSCI596_Final_Proj/assets/89505559/fd3b0d0c-1ed6-4562-8725-16bd3fb40dc3">
+
+
+### (3) Together
+We need a handful of parameters (the various colours and powers) and some more code.
+
+MaterialDiffuseColor is simply fetched from the texture.
+
+LightColor and LightPower are set in the shader through GLSL uniforms.
+<img width="829" alt="Screen Shot 2023-11-29 at 07 30 59" src="https://github.com/KatherineWang0527/CSCI596_Final_Proj/assets/89505559/96c058c2-eba5-498b-9d2a-1fba0a2d235f">
+
+
+
+### Steps:
 
 ### Model Loading:
 
