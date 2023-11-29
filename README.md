@@ -157,4 +157,3 @@ Optimize shaders and rendering techniques for smooth performance, especially wit
 Shader Complexity: While working in a 2D/3D space, achieving certain effects like shadows or complex lighting might require advanced shader logic.
 
 Texture Handling: Efficiently managing and mapping textures to geometry, especially with large or detailed images.
-![image](https://github.com/KatherineWang0527/CSCI596_Final_Proj/assets/62502208/128cab68-ae94-40ca-82ce-c4f48b3ffd6e)
