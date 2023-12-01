@@ -19,11 +19,11 @@ Create detailed 2D models (in image format, e.g., PNG or JPEG) representing a to
 Shader Development:
 
 Write fragment shaders to handle texture mapping, coloring, and any additional effects (e.g., shadows, outlines).
-Develop vertex shaders to handle transformations, although in a 2D context, these might be minimal.
+Develop vertex shaders to handle transformations, although, in a 2D context, these might be minimal.
 
 OpenGL Environment Setup:
 
-Initialize GLFW, create an OpenGL window, and set up a rendering context.
+Initialize GLFW, create an OpenGL window and set up a rendering context.
 
 Shader Integration:
 
@@ -39,7 +39,7 @@ Render the 2D models on the screen by mapping the textures to appropriate geomet
 Implement user interaction (e.g., mouse or keyboard input) to manipulate or animate the rendered 2D models.
 
 ### How to implement: 
-I created prog_hdlr handler and linked the source code of shaders: first we read the text files, then we compile it on-the-fly and then link to the program handler.
+I created prog_hdlr handler and linked the source code of shaders: first, we read the text files, then we compile it on-the-fly and then link to the program handler.
 
 ### Shader Logic:
 (1) vec3 l = normalize(gl_LightSource[0].position.xyz);
@@ -60,10 +60,10 @@ if (intensity > 0.95)
     else
         intensity = .2;
 
-If intensity is greater than 0.95, it's set to 1.
-If intensity is between 0.5 and 0.95, it's set to 0.6.
-If intensity is between 0.25 and 0.5, it's set to 0.4.
-If intensity is below 0.25, it's set to 0.2.
+If the intensity is greater than 0.95, it's set to 1.
+If the intensity is between 0.5 and 0.95, it's set to 0.6.
+If the intensity is between 0.25 and 0.5, it's set to 0.4.
+If the intensity is below 0.25, it's set to 0.2.
 
 (4) gl_FragColor = gl_Color * intensity;
 
@@ -85,12 +85,12 @@ After:
 2. 3D models shadering application
 
 Key points:
-        (1) Beeing more bright when closer to a light source
-        (2) Having highlights when looking in the reflection of a light (specular lighting)
-        (3) Beeing darker when light is not directly towards the model (diffuse lighting)
+        (1) Being more bright when closer to a light source
+        (2) Having highlights when looking at the reflection of a light (specular lighting)
+        (3) Being darker when light is not directly towards the model (diffuse lighting)
         (4) Cheating a lot (ambient lighting)
 
-### More Detail ablut the key points
+### More Details about the key points
 ### (1) The Diffuse part
 The importance of the surface normal
 When light hits an object, an important fraction of it is reflected in all directions. This is the “diffuse component”. When a certain flux of light arrives at the surface, this surface is illuminated differently according to the angle at which the light arrives.
@@ -101,12 +101,12 @@ If the light is perpendicular to the surface, it is concentrated on a small surf
 
 
 ### (2) Material Color
-The output colour also depends on the colour of the material. In this image, the white light is made out of green, red and blue light. When colliding with the red material, green and blue light is absorbed, and only the red remains.
+The output color also depends on the color of the material. In this image, the white light is made out of green, red and blue light. When colliding with the red material, green and blue light is absorbed, and only the red remains.
 <img width="474" alt="Screen Shot 2023-11-29 at 07 29 57" src="https://github.com/KatherineWang0527/CSCI596_Final_Proj/assets/89505559/fd3b0d0c-1ed6-4562-8725-16bd3fb40dc3">
 
 
 ### (3) Together
-We need a handful of parameters (the various colours and powers) and some more code.
+We need a handful of parameters (the various colors and powers) and some more code.
 
 MaterialDiffuseColor is simply fetched from the texture.
 
@@ -119,7 +119,7 @@ LightColor and LightPower are set in the shader through GLSL uniforms.
 
 ### Model Loading:
 
-Utilize a 3D modeling software (Blender, Maya, etc.) to create detailed models of a tower and a house.
+Utilize a 3D modeling software (Blender, Maya, etc.) to create detailed models of a monkey face.
 Export these models into a format that can be loaded into the OpenGL application (e.g., OBJ, FBX).
 
 ### Shader Development:
