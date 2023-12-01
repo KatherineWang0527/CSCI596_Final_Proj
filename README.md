@@ -111,8 +111,6 @@ We need a handful of parameters (the various colors and powers) and some more co
 MaterialDiffuseColor is simply fetched from the texture.
 
 LightColor and LightPower are set in the shader through GLSL uniforms.
-<img width="829" alt="Screen Shot 2023-11-29 at 07 30 59" src="https://github.com/KatherineWang0527/CSCI596_Final_Proj/assets/89505559/96c058c2-eba5-498b-9d2a-1fba0a2d235f">
-
 
 
 ### Steps:
@@ -150,6 +148,9 @@ Optimization and Performance:
 Optimize shaders and rendering techniques for smooth performance, especially with complex models and shader effects.
 
 ### Effect:
+
+<img width="829" alt="Screen Shot 2023-11-29 at 07 30 59" src="https://github.com/KatherineWang0527/CSCI596_Final_Proj/assets/89505559/96c058c2-eba5-498b-9d2a-1fba0a2d235f">
+
 <img width="773" alt="Screen Shot 2023-11-21 at 21 59 39" src="https://github.com/KatherineWang0527/CSCI596_Final_Proj/assets/89505559/4c5e64ea-e1c0-422f-bf2f-890f34ad0e24">
 
 
