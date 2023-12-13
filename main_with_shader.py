@@ -50,6 +50,14 @@ def compile_shader(source, shader_type):
         raise RuntimeError(glGetShaderInfoLog(shader))
     return shader
 
+# def compile_shader(source, shader_type):
+#     shader = glCreateShader(shader_type)
+#     glShaderSource(shader, source)
+#     glCompileShader(shader)
+#     if glGetShaderiv(shader, GL_COMPILE_STATUS) != GL_TRUE:
+#         raise RuntimeError(glGetShaderInfoLog(shader))
+#     return shader
+
 def setup_shader_program():
     global shader_program
     shader_program = glCreateProgram()
