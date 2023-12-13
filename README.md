@@ -12,7 +12,7 @@ We are conducting research on shader-based processing of objects using OpenGL. O
 
 1. Teapot shading 
 Steps:
-Model Preparation:
+Model Preparation：
 
 Create detailed 2D models (in image format, e.g., PNG or JPEG) representing a tower and a house.
 
